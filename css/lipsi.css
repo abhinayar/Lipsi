@@ -1,0 +1,273 @@
+/* Lipsi stylesheet
+Coded by Abhi Nayar (abhinayar.com)
+Site designed by Waled Davis (waldendavis.com)
+Copyright 2016, All Rights Reserved. 
+*/
+
+/* COLOR LIBRARY
+----------------------
+Purple: #7b94f8;
+Yellow: #ffe176;
+Logo on Purple: #9bb5f7;
+Logo on White: #d4dcf3;
+Purple Text on white: #7a9cf4;
+Grey Text on white: #808080;
+*/
+
+/* COMMON STYLES */
+html {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+body {
+
+}
+
+header {
+
+}
+
+.row img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 23px;
+}
+
+/* HEAD */
+#head {
+    /*Set background image */
+    background-color: #fff;
+    background-image: url(../images/head/background.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*make full browser height*/
+    height: 100%;
+    font-family: Lato;
+}
+
+/* SECTION ONE */
+#section_01 {
+	background-color: #fff;
+	color: #7b94f8;
+    font-family: Lato;
+}
+
+.section_01-phone-row img {
+    width: 75%;
+    /*we want to pull the phone image up onto HEAD */
+    margin-top: -22.5em;
+}
+
+.section_01-text-row p {
+    padding-top: 1.75em;
+    padding-bottom: 1.6em;
+    line-height: 1.3em;
+}
+
+/* SECTION TWO */
+#section_02 {
+	background-color: #ffe176;
+    font-family: Lato;
+}
+
+#section_02.primary {
+	color: #000;
+}
+
+#section_02.secondary {
+	color: #fff;
+}
+
+#section_02 h3 {
+    font-size: 56px;
+    padding-top: 0.5em;
+}
+
+form {
+    color: #fff;
+    font-size: 32px;
+}
+
+.form-group {
+    border: none;
+    color: #fff;
+}
+
+.form-control {
+    color: #fff;
+    font-size: 23px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: inherit;
+}
+
+input:focus, .form-control:focus {
+    box-shadow: none;
+}
+
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+input.form-control {
+    max-width: 400px;
+}
+
+button[type="submit"] {
+    background-color: transparent;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: transparent;
+}
+
+/* SECTION THREE */
+#section_03 {
+	background-color: #7b94f8;
+    background-image: url(../images/section_03/background.jpg);
+    background-size: contain;
+    background-attachment: scroll;
+    background-position: left;
+    background-repeat: no-repeat;
+	color: #fff;
+	height: 100%;
+    font-family: Lato;
+}
+
+#section_03 img {
+    width: 340px;
+    padding-top: 6em;
+}
+
+#section_03 h4 {
+    color: #b2c3f4;
+    text-transform: lowercase;
+    font-size: 56px;
+    padding-top: 4.5em;
+}
+
+#section_03 p {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    font-size: 22px;
+    line-height: 1.3em;
+    color: #f1f3f1;
+}
+/* SECTION FOUR */
+#section_04 {
+	background-color: #f2f2f2;
+	color: #a2a2a2;
+	height: 100%;
+    background-image: url(../images/section_04/background.jpg);
+    background-size: contain;
+    background-attachment: scroll;
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: Lato;
+}
+
+#section_04 img {
+    width: 340px;
+    padding-top: 6em;
+}
+
+#section_04 h4 {
+    text-transform: lowercase;
+    font-size: 56px;
+    padding-top: 4.5em;
+}
+
+#section_04 p {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    font-size: 22px;
+    line-height: 1.3em;
+}
+
+/* SECTION FIVE */
+#section_05 {
+	background-color: #7b94f8;
+    background-image: url(../images/section_03/background.jpg);
+    background-size: contain;
+    background-attachment: scroll;
+    background-position: left;
+    background-repeat: no-repeat;
+	color: #fff;
+	height: 100%;
+    font-family: Lato;
+}
+
+#section_05 img {
+    width: 340px;
+    padding-top: 6em;
+}
+
+#section_05 h4 {
+    color: #b2c3f4;
+    text-transform: lowercase;
+    font-size: 56px;
+    padding-top: 4.5em;
+}
+
+#section_05 p {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    font-size: 22px;
+    line-height: 1.3em;
+    color: #f1f3f1;
+}
+
+/* FOOTER */
+footer {
+	background-color: #ffe176;
+    font-family: Lato;
+}
+
+footer span.primary {
+    font-weight: 500;
+}
+
+.primary {
+	color: #000;
+}
+
+.secondary {
+	color: #fff;
+}
+
+.footer-text {
+    font-size: 23px;
+    font-weight: 300;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+
